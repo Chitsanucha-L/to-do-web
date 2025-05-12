@@ -1,0 +1,59 @@
+.auth-page {
+  font-family: "Noto Sans Thai", sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: -16px;
+}
+
+.auth-header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-header h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+.auth-header p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #64748b;
+}
+
+.auth-container {
+  max-width: 448px;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .auth-container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 420px) {
+  .auth-header {
+  margin-top: 0px;
+}
+}

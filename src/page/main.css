@@ -1,0 +1,137 @@
+/* main.css */
+.main-page {
+  font-family: "Noto Sans Thai", sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.material-table-wrapper {
+  margin-top: 36px;
+  margin-bottom: 72px;
+  max-width: 1300px;
+  width: 100%;
+}
+
+@media (max-width: 1340px) {
+  .material-table-wrapper {
+    max-width: 95%;
+  }
+}
+
+.status-checkbox {
+  margin-left: 10px;
+  width: 19px;
+  height: 19px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  cursor: pointer;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.status-checkbox.checked {
+  background-color: #1f2937;
+  border-color: #1f2937;
+}
+
+.status-checkbox:hover {
+  border-color: #526177;
+}
+
+.status-checkbox.checked:hover {
+  border-color: #1f2937;
+  opacity: 0.8;
+}
+
+.status-checkbox .check-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+
+.MuiToolbar-root .MuiTypography-h6 {
+  font-size: 20px;
+  font-family: "Noto Sans Thai", sans-serif;
+  font-weight: 700;
+}
+
+.MuiTableBody-root td[colspan] {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.MuiTableBody-root .MuiTableCell-root .MuiTypography-root {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 9px 0px;
+  color: #ef4444;
+}
+
+.MuiTableBody-root .MuiTableCell-root .MuiInputBase-root {
+  font-family: "Noto Sans Thai", sans-serif;
+  font-size: 14px;
+}
+
+.MuiTableBody-root .MuiTableCell-root .MuiInputBase-root .MuiInput-input {
+  font-size: 15px;
+}
+
+.MuiTableBody-root .MuiTableCell-root .MuiInputBase-root .MuiSelect-select {
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.MuiToolbar-root .MuiTablePagination-selectLabel,
+.MuiBox-root {
+  font-family: "Noto Sans Thai", "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.MuiToolbar-root .MuiBox-root .MuiTypography-root {
+  font-family: "Noto Sans Thai", "Roboto", sans-serif;
+  font-weight: 500;
+}
+.MuiPaper-root .MuiList-root .MuiButtonBase-root {
+  font-family: "Noto Sans Thai", "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.box-loading {
+  width: 200px;
+  height: 9px;
+  background-color: #d8dde2;
+  border-radius: 6px;
+}

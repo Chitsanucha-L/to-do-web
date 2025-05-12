@@ -1,0 +1,78 @@
+.credit-page {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0f0ff, #ffffff);
+  text-align: center;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.credit-title {
+  font-size: 2.5rem;
+  color: #2563eb;
+  margin-bottom: 30px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.member-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #dbeafe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #3b82f6;
+  margin: 0 auto 16px;
+}
+
+.member-card h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #1f2937;
+}
+
+.member-card p {
+  margin: 8px 0 16px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.icons div {
+  display: inline-block;
+  margin: 0 6px;
+  color: #3b82f6;
+  transition: 0.2s;
+}
+
+.icons div:hover {
+  color: #1f2937;
+}
+
+.credit-footer {
+  margin-top: 40px;
+  color: #9ca3af;
+  font-size: 14px;
+}
